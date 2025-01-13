@@ -1,7 +1,7 @@
 "use client";
 import React, { useState, useEffect, useCallback } from "react";
 import Image from "next/image";
-import { Product } from "@/pages/types";
+import { Product } from "@/types/types";
 import ProductCard from "./Productcard";
 
 const Menu: React.FC = () => {
